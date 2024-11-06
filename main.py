@@ -27,7 +27,11 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     """
     
     # TODO: Implement sum_of_squares_of_even
-    pass
+    answer = 0
+    for e in even_int_list:
+        answer += e
+
+    return answer
 
 # Main function
 def main():
@@ -40,3 +44,5 @@ def main():
 # Boilerplate code
 if __name__ == "__main__":
     main()
+    
+# This comment will be shown in sum_of_squares_of_even branch
