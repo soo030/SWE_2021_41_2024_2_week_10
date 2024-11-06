@@ -29,7 +29,7 @@ def sum_of_squares_of_even(even_int_list: List[int]) -> int:
     # TODO: Implement sum_of_squares_of_even
     answer = 0
     for e in even_int_list:
-        answer += e
+        answer = answer + ( e * e )
 
     return answer
 
